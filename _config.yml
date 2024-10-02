@@ -1,0 +1,32 @@
+# Your Website Title
+title: Dimitris Farantos
+
+# Your Website URL
+url: 'https://github.com/dimfrd/dimfrd.github.io'
+
+# Leave it default
+baseurl: '' 
+
+# Google Analytics
+ga_index: UA-XXXXXXXX-X
+ga_cv: UA-XXXXXXXX-X
+
+# Index page and Profile Information
+name: Dimitris Farantos
+tagline: Economist | Data Scientist
+pic: testme.png # profile.png can be found at /assets/images/profile.png
+description: Economist | Data Scientist
+description_tiny: 'Exploring the Tech Way'
+email: dimfrd@hotmail.com
+website: dimfrd.github.io # do not add http://
+linkedin: https://www.linkedin.com/in/dimitrios-farantos/
+github: https://github.com/dimfrd
+twitter: '-'
+
+# Files or folders to be excluded
+exclude: [gitbook_source_code/]
+
+# All the plugins for Jekyll
+plugins:
+  - jekyll-sitemap
+  - wdm
