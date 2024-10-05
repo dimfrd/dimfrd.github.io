@@ -1,92 +1,53 @@
-# Jekyll For Everyone
+# WhatATheme
+**WhatATheme** is a customizable Jekyll Portfolio theme which supports blogging. You can use this theme in order to create an elegant, fully responsive portfolio.
 
-Jekyll For Everyone is a package that is designed for everyone. The package contains three major components: homepage, CV, and [Gitbook](http://www.gitbook.com). The index page is a strip down version of [Jekyll Uno](https://github.com/joshgerdes/jekyll-uno) while the CV a modification of [Online CV](https://github.com/sharu725/online-cv). However, [Legacy Gitbook (v3.2.3)](https://github.com/GitbookIO/gitbook) is used instead of modern Gitbook (v4+). The main reason of using it is due to the fact that users can own their source code and edit them locally instead of doing it on the cloud. 
+#### You can checkout the [**Demo Here**](https://thedevslot.github.io/WhatATheme/) :boom:
 
-This package is very user friendly for non-programmer as I reorganized all the files and have all the variables written in several data files. This make it them to edit without needing to go into the actual code. 
+![WhatATheme](assets/images/meta.jpg)
 
-Big thanks to the theme creator as it this project would not be possible without their hard work! You are always welcome to contribute to this repository to make it better!
+# Features :sparkles:
+* Free and Easy setup
+* No Coding Required
+* Compatible with [Github Pages](https://pages.github.com/)
+* Responsive and Blogging Ready
+* HTML Compressor using [Jekyll Compress HTML](https://jch.penibelst.de/)
+* Minified CSS using SaSS
+* CMS Admin Support using [Jekyll Admin](https://jekyll.github.io/jekyll-admin/)
+* Supports Latest [Jekyll 4.x](https://jekyllrb.com/) and [Bundler](https://bundler.io/)
+* Stylesheet built using SaSS
+* Comments using Disqus
+* Analytics using Google Analytics
+* Instant Search using [Simple Jekyll Search](https://github.com/christian-fei/Simple-Jekyll-Search/)
 
-**Story Behind The Project**
+# Installation :books:
+### System Requirements
+* [Ruby](https://www.ruby-lang.org/en/)
+* [Jekyll](https://jekyllrb.com/)
+> You can read **What is Jekyll** [**here**](https://thedevslot.github.io/WhatATheme/blog/what-is-jekyll-how-to-use-it)
+### Up and Running
+* Fork the [Repository](https://github.com/thedevslot/WhatATheme/)
+* Clone or download the repository into directory of your choice: `git clone https://github.com/thedevslot/WhatATheme.git`
+* Inside the directory run `bundle install`
+* Host WhatATheme locally by running `bundle exec jekyll s`
 
-The main purpose of this project is to allow everyone especially for non-programmer to own a website and platform to share their expertise without needing to worry about the cost of owning and maintaining their website. I heard from a lot of readers mentioning that they are in love with the simplicity of my website especially and would love to one one. They only reason that stops them from doing it is they do not have any programming experience and not a tech savvy. With that, this motivates me to write a complete tutorial on how to get started with [Jekyll](http://melvinchng.github.io/jekyll). 
+> You can read **How to Install and use WhatATheme?** [**here**](https://thedevslot.github.io/WhatATheme/blog/how-to-install-whatatheme)
 
-Also, as a fresh graduate, I see the importance of owning a personal website when it comes to job hunting. If you love this project and would like to support it, spread the message and keep the footer as in. 
+[<img src="https://i.imgur.com/TVI946Z.png" width="250" />](https://youtu.be/VfPa2c9kwhQ)
 
-**Example Site**
-- My Personal Website
-  - [Melvin's landing page](https://melvinchng.github.io)
-  - [Melvin's CV](https://melvinchng.github.io/cv)
-  - [Melvin's Ruby on Rails Tuturial](https://melvinchng.github.io/rails)
-- Jekyll For Everyone Sample Website
-  - [Landing page](https://jekyll-for-everyone.github.io)
-  - [CV](https://jekyll-for-everyone.github.io/cv)
-  - [Gitbook](https://melvinchng.github.io/gitbook)
+---
 
-_Note: The content in `jekyll-for-everyone` is for illustration purpose only. It may not contain accurate information._
+### Content Credits :green_heart:
+* [Hero Image](https://images.pexels.com/photos/220444/pexels-photo-220444.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940) used as a background image in the very first section of Homepage.
+* [Author Image](https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png) used in the Author Section.
+* [Font Awesome](https://fontawesome.com/)
+* [Poppins Font](https://fonts.google.com/specimen/Poppins)
+* [Memphis Pattern](https://www.freepik.com/free-vector/memphis-pattern-background_4034913.htm#page=1&query=memphis%20pattern&position=23) used for some Social Media Images and the Favicon.
 
-## Features
-### Index Page
-- Name
-- Title Line
-- Secondary Information Line
-- Links to social pages
-- Links to other pages
-### CV
-- Summary or Background
-- Education
-- Experiences
-- Individual Projects
-- Group Projects
-- Skill & Proficiency
-- Related Courses
-- Honors & Awards
-- Languages
-- Social Link
-- Volunteer Experiences
-### Gitbook
-- Sample Gitbook
+---
 
-## Installation
-### If you do not know what you are doing
-1. Refer to my [guide](http://melvinchng.github.io/jekyll). It contains single instructions that you need to follow to get started.
-### If you know what you are doing or somewhat know what to do
-**Jekyll**
-1. For first time user, you have to install Ruby and Rails. If you do not have Ruby installed, you may follow [this tutorial](http://melvinchng.github.io/rails/RubyOnRailsInstallation.html) that I wrote for Windows, Linux, and MacOS (installation videos are included).
-2. Install Jekyll by using the command `gem install jekyll`.
-3. Then, install Jekyll Sitemap and Jekyll SEO gems by using the command `gem install jekyll-sitemap` and `gem install wdm`.
-4. Start your localhost server by using the command `jekyll serve`. Make sure that you are at the root directory of your folder before using this command.
-5. Your site should be accessible at `localhost:4000`.
-6. For additional information about Jekyll, refer to the [official website](http://jekyllrb.com/). 
+### Credits :bulb:
+* [Sneha Omer](http://sassyecoder.github.io/)
+* [Harsh Trivedi](http://harsh98trivedi.github.io/)
 
-**Gitbook**
-1. For first time user, you have to Gitbook modules by using the command `npm install gitbook-cli -g`.
-2. Navigate to the root directory of the gitbook, `gitbook_source_code` and start the gitbook server using the command `gitbook serve`. 
-3. If there are missing some packages for gitbook, use the command `gitbook install`.
-4. Your site should be accessible at `localhost:4000`.
-5. For additional information about Gitbook, refer to the [official website](https://github.com/GitbookIO/gitbook). 
-
-## How To Use
-### Index Page
-- The stylesheet, scripts, javascript for the index pages are stored at `/index_style/`.
-- The background picture for index page, named as `background-cover.jpg` can be found and replaced at `index_style/images`.
-- The profile picture for index page and cv page, named as `profile.png` can be found and replaced at `assets/images`.
-- All the data that shown in the index page are stored in `/_data/index_page.yml`. Replace all the content in the files.
-
-### CV
-- The stylesheet, scripts, javascript for the cv pages are stored at `/assets/`.
-- All the data that shown in the cv are stored in `/_data/cv_NAME.yml`. Replace all the content in the files.
-- If you would like to remove a specific section in the cv, change the variable from `true` to `false` for the variable in `/_data/cv_enable_section.yml`.
-
-### Gitbook
-- If you are not going to use the Gitbook feature, remove the `gitbook` folder.
-- The source code is stored at `/gitbook_source_code`
-- The content of generated book is coped from `/gitbook_source_code/_book` to `/gitbook`.
-
-### Other
-- If you would like to replace the website icon, you can use [this](https://favicon.io/) website to create one and replace the downloaded icon at `favicon.io`.
-- Update the variable in `/_config.yml`. Remember to replace the `url` variable with your actual URL.
-- If you would like to use Google Analytics, add your tracking number to `/_config.yml`.
-
-## Enjoy!
-
-As a reminder, if you love this project and would like to support it, spread the message and keep the footer as in. 
+### License
+The contents of this repository are licensed under the [**GNU General Public License v2.0**](https://github.com/thedevslot/WhatATheme/blob/master/LICENSE)

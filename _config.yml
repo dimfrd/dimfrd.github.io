@@ -1,32 +1,97 @@
-# Your Website Title
-title: Dimitris Farantos
+# WhatATheme
+markdown: kramdown
 
-# Your Website URL
-url: 'https://github.com/dimfrd/dimfrd.github.io'
+# URL of the Site
+url: ''
+# Base URL of the Site (i.e., Name of the Repository in which the Site is hosted)
+baseurl: 
 
-# Leave it default
-baseurl: '' 
+# Title of the Site
+title: Farantos Dimitris
+# Description of the Site
+description: Economist & Data Scientist
+# URL of Image of the Site
+site-image: /WhatATheme/assets/images/meta.jpg
+# Keywords of the Site
+site-keywords: Site, Template, Theme
+# URL for the Image of custom Favicon
+favicon-url: 
+
+# URL of the Image of Custom Hero Image (i.e., the image in the background of the very first section of the Homepage)
+heroimage: https://wallpaper.forfun.com/fetch/49/499182e9a3a53124c4230aeb1014c03d.jpeg
+
+# Social Media and Contact
+# If you don't want to use any icon, you can leave them blank.
+email: dimfrd@hotmail.com
+facebook_username: /
+twitter_username: /
+instagram_username: /
+linkedin_username: https://www.linkedin.com/in/dimitrios-farantos/
+github_username:  https://github.com/dimfrd
+youtube_channel_id: /
+reddit_username: /
+behance_username: /
+dribbble_username: /
+spotify_username: /
 
 # Google Analytics
-ga_index: UA-XXXXXXXX-X
-ga_cv: UA-XXXXXXXX-X
+google-analytics: UA-163806439-1
 
-# Index page and Profile Information
-name: Dimitris Farantos
-tagline: Economist | Data Scientist
-pic: testme.png # profile.png can be found at /assets/images/profile.png
-description: Economist | Data Scientist
-description_tiny: 'Exploring the Tech Way'
-email: dimfrd@hotmail.com
-website: dimfrd.github.io # do not add http://
-linkedin: https://www.linkedin.com/in/dimitrios-farantos/
-github: https://github.com/dimfrd
-twitter: '-'
+# Disqus
+disqus-shortname: DimFrd
 
-# Files or folders to be excluded
-exclude: [gitbook_source_code/]
+# Name of the Author
+author-name: Dimitris Farantos
+# URL for the Image of the Author
+author-image: https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png
+# 60 Words About the Author
+author-about: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eget pharetra velit, dapibus bibendum ex. Maecenas vitae laoreet mauris, ac luctus metus. Aliquam luctus velit vel ipsum feugiat, vel venenatis mauris hendrerit. Sed at vulputate sapien, eget vehicula dolor. Aliquam volutpat pulvinar neque sit amet sodales.
+# URL to the Author's Profile (i.e., Github, Twitter, Stackoverflow, etc)
+author-url: https://github.com/dimfrd
 
-# All the plugins for Jekyll
+# SASS
+sass:
+  sass_dir: _sass
+  style: compressed
+
+# Build settings
 plugins:
-  - jekyll-sitemap
-  - wdm
+  - jekyll-admin
+  - jekyll-feed
+
+# Permalink
+permalink: "blog/:title"
+
+# Compress
+compress_html:
+  clippings: all
+
+# Defaults
+defaults:
+  -
+    scope:
+      type: 'posts'
+    values:
+      layout: post
+      post-image: ""
+      description: ""
+      tags:
+        - ""
+  -
+    scope:
+      type: 'pages'
+    values:
+      layout: page
+
+# Exclude
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
